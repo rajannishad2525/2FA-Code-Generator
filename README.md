@@ -4,6 +4,19 @@ A lightweight client-side **TOTP (Time-Based One-Time Password) 2FA Code Generat
 
 Enter a Base32 secret key and generate a **6-digit 2FA code** that automatically refreshes every 30 seconds.
 
+## 🌐 Live Demo
+
+🚀 **[Open Live Demo](https://rajannishad2525.github.io/2FA-Code-Generator/)**
+
+Try the 2FA Code Generator directly in your browser — no installation required.
+
+### Generate a 2FA Code
+
+1. Enter your Base32 secret key.
+2. Click **Generate Code**.
+3. Your 6-digit TOTP code will be displayed.
+4. The code automatically refreshes every 30 seconds.
+
 ## ✨ Features
 
 * 🔐 Generate 6-digit TOTP codes
