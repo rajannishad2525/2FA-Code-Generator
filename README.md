@@ -38,7 +38,7 @@ Enter a Base32 secret key and generate a **6-digit 2FA code** that automatically
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/2fa-code-generator.git
+git clone https://github.com/rajannishad2525/2FA-Code-Generator.git
 ```
 
 2. Open the project folder.
