@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FA Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <form>
+
+            <h1>🔐 2FA Code Generator</h1>
+
+            <p class="subtitle">
+                Generate a 6-digit TOTP code
+            </p>
+
+            <label for="secretKey">
+                Secret Key
+            </label>
+
+            <input
+                type="text"
+                id="secretKey"
+                placeholder="Paste your 2FA key here..."
+                autocomplete="off"
+            >
+
+            <button type="button" onclick="startTOTP()">
+              Generate Code
+            </button>
+
+            <div class="result">
+
+                <p>Current 2FA Code</p>
+
+                <div id="code">
+                    ------
+                </div>
+
+                <p class="timer">
+                    Expires in
+                    <span id="timer">30</span>s
+                </p>
+
+            </div>
+
+            <p id="message"></p>
+            <p>Made with ❤️ by <a href="https://www.linkedin.com/in/rajannishad25/"> Rajan Nishad</a></p>
+         </form>
+        </div>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
