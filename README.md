@@ -41,16 +41,24 @@ Enter a Base32 secret key and generate a **6-digit 2FA code** that automatically
 git clone https://github.com/rajannishad2525/2FA-Code-Generator.git
 ```
 
-2. Open the project folder.
+2. Open the project in VS code.
+```bash
+cd 2FA-Code-Generator
+code .
+```
 
-3. Open `index.html` in your browser.
+3. Open `index.html` 
 
-4. Paste your Base32 secret key.
+4. Right-click on `index.html`.
 
-5. Click **Generate Code**.
+5. select option open in integrated browser
 
-6. Your 6-digit TOTP code will be displayed and refreshed automatically.
+## 🔐 Generate a 2FA Code
 
+1. Enter your **Base32 secret key** example like instagram secret key or google secret key any type of 2fa secret key .
+2. Click **Generate Code**.
+3. Your **6-digit TOTP code** will be displayed.
+4. The code automatically **refreshes every 30 seconds**.
 
 This project is designed to process the secret key **locally in the browser**. It will work for everything—Instagram, Google, and all the secret accounts.
 
